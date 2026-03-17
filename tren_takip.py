@@ -77,7 +77,7 @@ def bilet_sorgula():
         if "Seç" in body_text:
             for saat in HEDEF_SAATLER:
                 if saat in body_text:
-                    bildirim_gonder(f"Sahibem! {saat} trenini kontrol et, yer açılmış olabilir!")
+                    bildirim_gonder(f"Furki! {saat} trenini kontrol et, yer açılmış olabilir!")
                     found = True
         
         if not found:
